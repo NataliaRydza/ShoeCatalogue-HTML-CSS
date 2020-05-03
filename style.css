@@ -112,3 +112,21 @@ body {
   bottom: 30px;
   text-align: end;
 }
+
+li {
+  display: inline-block;
+  padding: 12px;
+  border: white solid 1px;
+}
+
+.velikosti {
+  padding: 0;
+}
+
+li:hover,
+li:focus,
+li:active {
+  border: #f15f42 solid 1px;
+  border-radius: 50%;
+  color: #f15f42;
+}
